@@ -51,7 +51,7 @@ vendor/lib/rfsa/adsp/libfastcvadsp.so
 
 # Audio
 vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.tb371fc.so;FIX_SONAME
-vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_pipa.so;FIX_SONAME
+vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_tb371fc.so;FIX_SONAME
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudiocloudctrl.so
 vendor/lib/libaudioroute_ext.so
@@ -59,8 +59,59 @@ vendor/lib/libresampler.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/vndk/libxlog.so
 
-# Audio firmware
-vendor/firmware/aw882xx_acf.bin
+# firmware from vendor
+vendor/firmware/a615_zap.b00
+vendor/firmware/wlanmdsp.otaupdate
+vendor/firmware/tfa98xx_YC.cnt
+vendor/firmware/novatek_ts_tm_mp.bin
+vendor/firmware/a650_zap.elf
+vendor/firmware/ipa_fws.elf
+vendor/firmware/novatek_ts_tm_mp_6.bin
+vendor/firmware/ipa_fws.b03
+vendor/firmware/tfa98xx_QS.cnt
+vendor/firmware/a615_zap.mdt
+vendor/firmware/ipa_fws.b01
+vendor/firmware/a630_sqe.fw
+vendor/firmware/ipa_uc.b00
+vendor/firmware/a650_zap.mdt
+vendor/firmware/a650_zap.b02
+vendor/firmware/ipa_fws.b00
+vendor/firmware/novatek_ts_mp_boe.bin
+vendor/firmware/ipa_uc.b01
+vendor/firmware/a615_zap.elf
+vendor/firmware/ipa_uc.elf
+vendor/firmware/a650_sqe.fw
+vendor/firmware/ipa_fws.b02
+vendor/firmware/wlan/qca_cld
+vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
+vendor/firmware/wlan/qca_cld/qca6490
+vendor/firmware/wlan/qca_cld/qca6490/WCNSS_qcom_cfg.ini
+vendor/firmware/wlan/qca_cld/qca6490/wlan_mac.bin
+vendor/firmware/wlan/qca_cld/qca6390
+vendor/firmware/wlan/qca_cld/qca6390/WCNSS_qcom_cfg.ini
+vendor/firmware/wlan/qca_cld/qca6390/wlan_mac.bin
+vendor/firmware/ipa_uc.b02
+vendor/firmware/ipa_uc.mdt
+vendor/firmware/a615_zap.b02
+vendor/firmware/a620_zap.b00
+vendor/firmware/novatek_ts_mp_boe_6.bin
+vendor/firmware/CAMERA_ICP.elf
+vendor/firmware/a650_gmu.bin
+vendor/firmware/a620_zap.b02
+vendor/firmware/ipa_fws.mdt
+vendor/firmware/a620_zap.b01
+vendor/firmware/wigig/wigig.ini
+vendor/firmware/novatek_ts_fw_boe_6.bin
+vendor/firmware/a615_zap.b01
+vendor/firmware/novatek_ts_tm_fw_6.bin
+vendor/firmware/ipa_fws.b04
+vendor/firmware/a620_zap.elf
+vendor/firmware/novatek_ts_tm_fw.bin
+vendor/firmware/a619_gmu.bin
+vendor/firmware/a620_zap.mdt
+vendor/firmware/novatek_ts_fw_boe.bin
+vendor/firmware/a650_zap.b00
+vendor/firmware/a650_zap.b01
 
 # Camera
 vendor/lib64/camera/com.qti.actuator.pipa_cn3927_ov13b10.so
