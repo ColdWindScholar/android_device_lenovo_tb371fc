@@ -66,4 +66,4 @@ PRODUCT_PACKAGES += \
     TargetWifiOverlay
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/pipa/pipa-vendor.mk)
+$(call inherit-product, vendor/lenovo/tb371fc/tb371fc-vendor.mk)
