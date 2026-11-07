@@ -290,6 +290,12 @@ vendor/etc/init/init.batterysecret.rc
 /vendor/bin/hw/vendor.lenovo.hardware.misc@1.0-service
 /vendor/bin/hw/vendor.lenovo.hardware.performance@1.0-service
 /vendor/bin/hw/vendor.lenovo.hardware.touchscreen@1.0-service
+vendor/etc/init/vendor.lenovo.hardware.battery@2.0-service.rc
+vendor/etc/init/vendor.lenovo.hardware.display@1.0-service.rc
+vendor/etc/init/vendor.lenovo.hardware.factory@1.0-service.rc
+vendor/etc/init/vendor.lenovo.hardware.misc@1.0-service.rc
+vendor/etc/init/vendor.lenovo.hardware.performance@1.0-service.rc
+vendor/etc/init/vendor.lenovo.hardware.touchscreen@1.0-service.rc
 
 # Display calibration
 vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml
