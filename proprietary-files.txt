@@ -282,6 +282,15 @@ vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
+# Lenovo hardware
+/vendor/bin/hw/vendor.lenovo.hardware.battery@1.0-service
+/vendor/bin/hw/vendor.lenovo.hardware.battery@2.0-service
+/vendor/bin/hw/vendor.lenovo.hardware.display@1.0-service
+/vendor/bin/hw/vendor.lenovo.hardware.factory@1.0-service
+/vendor/bin/hw/vendor.lenovo.hardware.misc@1.0-service
+/vendor/bin/hw/vendor.lenovo.hardware.performance@1.0-service
+/vendor/bin/hw/vendor.lenovo.hardware.touchscreen@1.0-service
+
 # Display calibration
 vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml
 vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml
