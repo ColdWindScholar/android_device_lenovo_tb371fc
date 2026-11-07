@@ -17,7 +17,7 @@ from extract_utils.main import (
 )
 
 blob_fixups: blob_fixups_user_type = {
-    'vendor/lib/hw/audio.primary.pipa.so': blob_fixup()
+    'vendor/lib/hw/audio.primary.tb371fc.so': blob_fixup()
         .binary_regex_replace(
             b'/vendor/lib/liba2dpoffload.so',
             b'liba2dpoffload_pipa.so\x00\x00\x00\x00\x00\x00\x00',
