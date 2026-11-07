@@ -1,15 +1,24 @@
 # Unpinned blobs from pipa_global-user RKQ1.211001.001 OS2.0.14.0.UMZMIXM_14.0 user release-keys
 
 # ACDB
-vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_General_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Global_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Handset_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Hdmi_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Headset_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Speaker_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp:vendor/etc/acdbdata/Tutu/Tutu_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
+vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
+vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
+vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+
 
 # ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so
@@ -49,7 +58,7 @@ vendor/lib/rfsa/adsp/misound_res_spk.bin
 vendor/lib/rfsa/adsp/misound_res_spk4ch.bin
 
 # Audio
-vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.pipa.so;FIX_SONAME
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.tb371fc.so;FIX_SONAME
 vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_pipa.so;FIX_SONAME
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudiocloudctrl.so

@@ -32,7 +32,7 @@ vendor.audio.offload.buffer.size.kb=32
 vendor.audio_hal.period_multiplier=3
 
 # Audio hardware
-ro.hardware.audio.primary=pipa
+ro.hardware.audio.primary=tb371fc
 
 # Display
 debug.sf.set_idle_timer_ms=1100
