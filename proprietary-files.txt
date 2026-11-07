@@ -1,4 +1,4 @@
-# Unpinned blobs from pipa_global-user RKQ1.211001.001 OS2.0.14.0.UMZMIXM_14.0 user release-keys
+# Unpinned blobs from tb371fc_cn-user UKQ1.231222.001 ZUI_16.0.474_241129_PRC user release-keys
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
