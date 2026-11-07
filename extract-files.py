@@ -71,8 +71,8 @@ namespace_imports = [
 ]
 
 module = ExtractUtilsModule(
-    'pipa',
-    'xiaomi',
+    'tb371fc',
+    'lenovo',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,

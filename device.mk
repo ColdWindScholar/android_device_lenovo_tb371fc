@@ -19,8 +19,8 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2880
-TARGET_SCREEN_WIDTH := 1800
+TARGET_SCREEN_HEIGHT := 2944
+TARGET_SCREEN_WIDTH := 1840
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
     init.device.rc
 
 # Shipping API level
-PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_SHIPPING_API_LEVEL := 33
 
 # Recovery
 $(call soong_config_set_bool,recovery,target_recovery_uses_qti_drm,true)

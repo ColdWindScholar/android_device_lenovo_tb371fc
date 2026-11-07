@@ -14,15 +14,15 @@ $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 # Inherit from pipa device
 $(call inherit-product, device/xiaomi/pipa/device.mk)
 
-PRODUCT_NAME := lineage_pipa
-PRODUCT_DEVICE := pipa
-PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := 23043RP34G
+PRODUCT_NAME := lineage_tb371fc
+PRODUCT_DEVICE := tb371fc
+PRODUCT_MANUFACTURER := Lenovo
+PRODUCT_BRAND := Lenovo
+PRODUCT_MODEL := TB371FC
 
 PRODUCT_CHARACTERISTICS := tablet
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint=Xiaomi/pipa_global/pipa:13/RKQ1.211001.001/V816.0.7.0.UMZMIXM:user/release-keys
+    BuildFingerprint=Lenovo/TB371FC_PRC/TB371FC:14/UKQ1.231222.001/ZUI_16.0.474_241129_PRC:user/release-keys
