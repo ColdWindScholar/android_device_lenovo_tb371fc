@@ -20,7 +20,7 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib/hw/audio.primary.tb371fc.so': blob_fixup()
         .binary_regex_replace(
             b'/vendor/lib/liba2dpoffload.so',
-            b'liba2dpoffload_pipa.so\x00\x00\x00\x00\x00\x00\x00',
+            b'liba2dpoffload_tb371fc.so\x00\x00\x00\x00',
         )
         .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
     'vendor/lib64/hw/camera.qcom.so': blob_fixup()
