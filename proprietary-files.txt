@@ -69,7 +69,6 @@ vendor/firmware/novatek_ts_tm_mp_6.bin
 vendor/firmware/tfa98xx_QS.cnt
 vendor/firmware/a615_zap.mdt
 vendor/firmware/a630_sqe.fw
-vendor/firmware/ipa_uc.b00
 vendor/firmware/a650_zap.mdt
 vendor/firmware/a650_zap.b02
 vendor/firmware/novatek_ts_mp_boe.bin
