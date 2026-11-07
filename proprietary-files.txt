@@ -132,12 +132,8 @@ vendor/lib64/com.qti.feature2.memcpy.so
 vendor/lib64/com.qti.feature2.mfsr.so
 vendor/lib64/com.qti.feature2.qcfa.so
 vendor/lib64/com.qti.feature2.rawhdr.so
-vendor/lib64/com.qti.feature2.rawsupernight.so
 vendor/lib64/com.qti.feature2.rt.so
 vendor/lib64/com.qti.feature2.serializer.so
-vendor/lib64/com.qti.feature2.softispprocess.so
-vendor/lib64/com.qti.feature2.softispsupernight.so
-vendor/lib64/com.qti.feature2.sr.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/hw/camera.qcom.so
