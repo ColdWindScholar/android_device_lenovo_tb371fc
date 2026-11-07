@@ -16,7 +16,7 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_SCREEN_DENSITY := 340
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/pipa.config
+TARGET_KERNEL_CONFIG += vendor/lenovo/tb371fc.config
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
@@ -32,4 +32,4 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SOONG_CONFIG_XIAOMI_KONA_WIFI_SYMLINK_VERSION := v2
 
 # Inherit from the proprietary version
-include vendor/xiaomi/pipa/BoardConfigVendor.mk
+include vendor/lenovo/tb371fc/BoardConfigVendor.mk
